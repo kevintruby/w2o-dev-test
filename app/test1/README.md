@@ -1,10 +1,14 @@
-# Test1
+# Dev Test Option #1
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.6.
 
+## Problem Definition:
+
+Create a Web display that uses the Wikipedia API to display a list of all current images on the New Jersey Wikipedia page with the username (if any) of the account that uploaded each image.
+
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `npm start` for a dev server. Navigate to `http://localhost:3200/`. If run through the Docker instance, replace "localhost" with the instance IP address.
 
 ## Code scaffolding
 
