@@ -1,0 +1,12 @@
+web:
+    build: .
+    command: /bin/bash
+    tty: true
+    stdin_open: true
+    volumes:
+        - ./app:/devTest
+    ports:
+        - "80:80"
+        - "443:443"
+        - "3000:3000"
+        - "4200:4200"

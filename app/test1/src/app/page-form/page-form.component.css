@@ -1,0 +1,80 @@
+nav {
+  padding: 15px;
+}
+.image-toggle {
+  margin-left: 15px;
+}
+.main {
+  margin-top: 100px;
+}
+table {
+  margin-top: 20px;
+}
+thead.thead-inverse {
+  background-color: #292b2c;
+  color: #ffffff;
+}
+tbody td {
+  max-width: 550px;
+  overflow-wrap: break-word;
+}
+.brick {
+  width: 200px;
+  margin: 10px;
+}
+.brick img {
+  width: 200px;
+  height: 100%;
+  border: 1px solid #000;
+  word-wrap: break-word;
+}
+.brick div {
+  border: 1px solid #000;
+  padding: 5px;
+  word-wrap: break-word;
+}
+
+/*
+I'm rusty on CSS animations, and copied the below CSS from the following snippet link:
+https://bootsnipp.com/snippets/featured/glyphicon-animate-rotation-and-flip
+ */
+.gly-spin {
+  -webkit-animation: spin 2s infinite linear;
+  -moz-animation: spin 2s infinite linear;
+  -o-animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
+}
+@-moz-keyframes spin {
+  0% {
+    -moz-transform: rotate(0deg);
+  }
+  100% {
+    -moz-transform: rotate(359deg);
+  }
+}
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+  }
+}
+@-o-keyframes spin {
+  0% {
+    -o-transform: rotate(0deg);
+  }
+  100% {
+    -o-transform: rotate(359deg);
+  }
+}
+@keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}

@@ -1,0 +1,4 @@
+.idea
+app/.idea
+app/node_modules
+app/test1/node_modules
